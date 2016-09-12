@@ -102,8 +102,40 @@ $(function () {
     }
   );
 
-  $('#r1').tooltip();
-  $('#r2').tooltip();
-  $('#r3').tooltip();
-  $('#r4').tooltip();
+  $('#r1').tooltip(
+    {
+      content: '<img src="images/workflow/R/r1.png" class="responsive"/>',
+      position: {
+        my: "top-600",
+        at: "center"
+      },
+    }
+  );
+  $('#r2').tooltip(
+    {
+      content: '<img src="images/workflow/R/r2.png" class="responsive"/>',
+      position: {
+        my: "left-300 top-600",
+        at: "center"
+      },
+    }
+  );
+  $('#r3').tooltip(
+    {
+      content: '<img src="images/workflow/R/r3.png" class="responsive"/>',
+      position: {
+        my: "left-500 top-600",
+        at: "center"
+      },
+    }
+  );
+  $('#r4').tooltip(
+    {
+      content: '<img src="images/workflow/R/r4.png" class="responsive"/>',
+      position: {
+        my: "left-700 top-600",
+        at: "center"
+      },
+    }
+  );
 });
