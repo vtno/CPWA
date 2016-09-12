@@ -1,0 +1,41 @@
+.button {
+  height: 100px;
+  width: auto;
+}
+.bpm{
+  background-color: #c8f4cf;
+  width: 95%;
+  right: 0;
+  position: absolute;
+}
+.cpm {
+  background-color: #fdcbcd;
+  padding: 0 0 15px;
+}
+.normal{
+  display: inline;
+  margin-bottom: 10px;
+}
+.hover{
+  display: none;
+  margin-bottom: 10px;
+}
+.crm {
+  vertical-align: middle;
+  background-color: #c0edfc;
+  width: 95%;
+  right: 0;
+  height: 250px;
+  margin-top: 50px;
+  bottom: 0;
+  position: absolute;
+}
+
+.ui-tooltip-content img{
+  position: absolute;
+  width: 750px !important;
+  height: auto;
+}
+h1 {
+  margin-bottom: 50px
+}
