@@ -57,6 +57,11 @@ h1 {
     -moz-border-radius:0 6px 6px 6px;
     border-radius:0 6px 6px 6px;
 }
+
+.dropdown .dropdown-submenu, .menu-item {
+  border: solid 1px black;
+}
+
 .dropdown-submenu:hover>.dropdown-menu {
     display:block;
 }
