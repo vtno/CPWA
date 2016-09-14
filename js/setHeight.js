@@ -3,7 +3,6 @@ $(document).ready(function(){
   $('.cpm').css('height', height+'px');
   $('.right-col').css('height', height+'px');
   $('button').on('click', function(){
-    console.log("TEST");
     $('.tooltip-image').hide();
   });
 });
