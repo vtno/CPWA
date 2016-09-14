@@ -1,4 +1,4 @@
-height = $(window).height().toString();
+height = 600
 $(document).ready(function(){
   $('.cpm').css('height', height+'px');
   $('.right-col').css('height', height+'px');

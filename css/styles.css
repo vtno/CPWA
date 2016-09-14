@@ -4,9 +4,44 @@
 }
 .bpm{
   background-color: #c8f4cf;
-  width: 95%;
-  right: 0;
+  background-image: url('../images/Screen Shot 2016-09-14 at 8.07.00 PM@3x.png');
+  background-size: cover;
+  width: 700px;
+  right: -50px;
   position: absolute;
+}
+.img-arrow {
+  position: absolute;
+  z-index: 20;
+  left: 700px;
+  top: 270px;
+  width: 22px;
+}
+.arrow-side {
+  position: absolute;
+  z-index: 20;
+  left: 338px;
+  top: 125px;
+  width: 22px;
+}
+.arrow-side2 {
+  position: absolute;
+  z-index: 20;
+  left: 338px;
+  top: 470px;
+  width: 22px;
+}
+.container-fluid {
+  width: 1000px!important;
+  position: relative;
+  top: 50%;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+  transform: translateY(-50%)
+}
+img {
+  width: 130px
 }
 .cpm {
   background-color: #fdcbcd;
@@ -23,8 +58,8 @@
 .crm {
   vertical-align: middle;
   background-color: #c0edfc;
-  width: 95%;
-  right: 0;
+  width: 700px;
+  right: -50px;
   height: 250px;
   margin-top: 50px;
   bottom: 0;
@@ -37,7 +72,7 @@
   height: auto;
 }
 h1 {
-  margin-bottom: 50px
+  margin-bottom: 20px
 }
 
 .dropdown-toggle {
