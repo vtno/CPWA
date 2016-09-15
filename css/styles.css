@@ -4,44 +4,46 @@
 }
 .bpm{
   background-color: #c8f4cf;
-  background-image: url('../images/Screen Shot 2016-09-14 at 8.07.00 PM@3x.png');
+  background-image: url('../images/Screen Shot 2016-09-16 at 12.41.20 AM.png');
   background-size: cover;
   width: 700px;
   right: -50px;
+  padding-bottom: 50px;
   position: absolute;
 }
 .img-arrow {
   position: absolute;
   z-index: 20;
   left: 700px;
-  top: 270px;
-  width: 22px;
+  top: 398px;
+  width: 13px;
 }
 .arrow-side {
   position: absolute;
   z-index: 20;
   left: 338px;
-  top: 125px;
+  top: 210px;
   width: 22px;
 }
 .arrow-side2 {
   position: absolute;
   z-index: 20;
   left: 338px;
-  top: 470px;
+  top: 530px;
   width: 22px;
 }
 .container-fluid {
   width: 1000px!important;
   position: relative;
   top: 50%;
-  left: 0;
+  left: -50px;
+  text-align: center;
   right:0;
   margin: 0 auto;
   transform: translateY(-50%)
 }
 img {
-  width: 130px
+  width: 140px
 }
 .cpm {
   background-color: #fdcbcd;
@@ -60,7 +62,7 @@ img {
   background-color: #c0edfc;
   width: 700px;
   right: -50px;
-  height: 250px;
+  height: 180px;
   margin-top: 50px;
   bottom: 0;
   position: absolute;
@@ -68,7 +70,7 @@ img {
 
 .ui-tooltip-content img{
   position: absolute;
-  width: 750px !important;
+  width: 600px !important;
   height: auto;
 }
 h1 {
@@ -93,7 +95,10 @@ h1 {
     border-radius:0 6px 6px 6px;
 }
 
-.dropdown .dropdown-submenu, .menu-item {
+.dropdown .dropdown-submenu, .menu-item{
+  border: solid 1px black;
+}
+li{
   border: solid 1px black;
 }
 
@@ -125,4 +130,34 @@ h1 {
     -webkit-border-radius:6px 0 6px 6px;
     -moz-border-radius:6px 0 6px 6px;
     border-radius:6px 0 6px 6px;
+}
+#c1,#c2,#c3,#c4,#c5 {
+  margin: 3px 0;
+}
+#c5 img{
+  width: 150px!important;
+}
+#c4 img{
+  width: 150px!important;
+}
+#c3 img{
+  width: 150px!important;
+}
+#c2 img{
+  width: 150px!important;
+}
+#r1 img{
+  width: 150px!important;
+}
+#r2 img{
+  width: 150px!important;
+}
+#r3 img{
+  width: 150px!important;
+}
+#r4 img{
+  width: 150px!important;
+}
+.col-xs-3, .col-xs-6 {
+  padding: 0!important;
 }

@@ -210,7 +210,7 @@
 .ui-menu .ui-menu {
 	position: absolute;
 }
-.ui-menu .ui-menu-item {
+.ui-menu .ui-menu-item{
 	margin: 0;
 	cursor: pointer;
 	/* support: IE10, see #8844 */

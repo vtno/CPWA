@@ -1,4 +1,4 @@
-height = 600
+height = 550
 $(document).ready(function(){
   $('.cpm').css('height', height+'px');
   $('.right-col').css('height', height+'px');
